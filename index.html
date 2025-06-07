@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Donuts x Strava</h1>
+    <h1>Power Summary and FTP Estimate Recent Activities</h1>
   </header>
   <main>
     <p>Click below to authorize your Strava account:</p>
@@ -54,7 +54,15 @@
       }
     }
   </script>
-<h2 style="text-align: center;">📈 Daily Avg Power & Heartrate</h2>
+<h2 style="text-align: center;">📈 Power Curve & FTP Estimate</h2>
+<div style="display: flex; justify-content: center; padding: 1rem;">
+  <iframe 
+    src="https://strava-backend-ftp-chart.onrender.com/" 
+    style="width: 100%; max-width: 800px; height: 500px; border: none;" 
+    loading="lazy">
+  </iframe>
+</div>
+<h2 style="text-align: center;">📈 Daily Avg Power & Heartrate Trend</h2>
 <div style="display: flex; justify-content: center; padding: 1rem;">
   <iframe 
     src="https://strava-backend-power-chart.onrender.com/" 
